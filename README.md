@@ -1,4 +1,5 @@
-# Secure Document Q&A Copilot (RAG + Semantic Kernel + Azure OpenAI)
+![Chat demo](chat-demo.png)
+![API docs](swagger-api.png)                                                                                                # Secure Document Q&A Copilot (RAG + Semantic Kernel + Azure OpenAI)
 
 Upload documents, ask questions in a React chat UI, get answers **only from your documents, with sources**.
 Personal data (emails, phones, Aadhaar, PAN, cards) is **masked before it is stored or sent to the LLM**.
