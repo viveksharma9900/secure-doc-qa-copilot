@@ -1,0 +1,13 @@
+Acme Corp Employee Handbook
+
+Leave Policy
+Every full-time employee gets 24 days of paid leave per year. Unused leave up to 10 days can be carried forward to the next year. Sick leave of up to 8 days per year is separate and needs a medical certificate if it exceeds 2 consecutive days.
+
+Work From Home
+Employees may work from home up to 2 days per week with manager approval. Fully remote work requires written approval from the department head.
+
+Expense Reimbursement
+Travel and client expenses must be submitted within 30 days with receipts. Meals are reimbursed up to 800 rupees per day during official travel. For queries contact hr.helpdesk@acme.example or call 9876543210.
+
+Data Security
+Employees must never share customer data over personal email. Laptops must use disk encryption and passwords must be changed every 90 days. Report any security incident to the IT team within 24 hours.

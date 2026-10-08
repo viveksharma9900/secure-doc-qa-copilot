@@ -1,0 +1,18 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "")
+API_KEY = os.getenv("AZURE_OPENAI_API_KEY", "")
+CHAT_DEPLOYMENT = os.getenv("AZURE_OPENAI_CHAT_DEPLOYMENT", "")
+EMBED_DEPLOYMENT = os.getenv("AZURE_OPENAI_EMBED_DEPLOYMENT", "")
+
+AZURE_CHAT_ON = bool(ENDPOINT and API_KEY and CHAT_DEPLOYMENT)
+AZURE_EMBED_ON = bool(ENDPOINT and API_KEY and EMBED_DEPLOYMENT)
+
+MAX_UPLOAD_MB = 5
+ALLOWED_EXT = {".txt", ".md", ".pdf"}
+CHUNK_CHARS = 700
+CHUNK_OVERLAP_WORDS = 20
+TOP_K = 4
